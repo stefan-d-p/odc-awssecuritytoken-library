@@ -10,7 +10,7 @@
 
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="13.0.1" />
-        <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.400.45" />
+        <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.401.38" />
         <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.5.0" />
     </ItemGroup>
 
@@ -18,7 +18,6 @@
       <None Remove="Resources\IAM.png" />
       <EmbeddedResource Include="Resources\IAM.png" />
       <None Remove="Resources\SecurityToken.png" />
-      <EmbeddedResource Include="Resources\SecurityToken.png" />
     </ItemGroup>
 
 </Project>

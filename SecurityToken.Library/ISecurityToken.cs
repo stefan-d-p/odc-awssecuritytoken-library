@@ -13,7 +13,7 @@ namespace Without.Systems.SecurityToken
             ReturnName = "result",
             ReturnDescription = "Temporary Security Credentials Result",
             ReturnType = OSDataType.InferredFromDotNetType,
-            IconResourceName = "Without.Systems.SecurityToken.Resources.SecurityToken.png")]
+            IconResourceName = "Without.Systems.SecurityToken.Resources.IAM.png")]
         Structures.AssumeRoleResponse AssumeRole(
             [OSParameter(
                 Description = "AWS Account Credentials",
